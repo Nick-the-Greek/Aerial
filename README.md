@@ -57,22 +57,18 @@ Installation
   then look at the corresponding folder of that "Mode".
   If a "Mode" is never executed, none folder will be created for that "Mode".
   
-  Features
-  ========
-  o Menu driven.
-  o Kali Linux x86 and x64 architectures compatible.
-  o BackTrack 5R3 Linux x86 and x64  architectures compatible. (some modes).
-  o A configuration file (aerial.conf) with the ability to enable/disable 
-    some of the Aerial's menus (speed things up) and/or change directly 
-    script's values (ex Internet interface, wireless interface, channel, etc).
-    Please refer to aerial.conf for detailed instructions.
-  o Selectable language/date format/long URLs for SARG.  
-  o All inputs from users are filtered. You can't enter an invalid input.
-    e.g. Internet interface, wireless interface, channel, CRDA, password, etc
-  o Multiple examples for correct usage of the script.
-  o Backup/restore of any configuration files or folders that
-    it might be changed into the OS by the script.
-  o Downloading and installation of all required programs, if they are not present:
+Features
+========
+  
+  * Menu driven.
+  * Kali Linux x86 and x64 architectures compatible.
+  * BackTrack 5R3 Linux x86 and x64  architectures compatible. (some modes).
+  * A configuration file (aerial.conf) with the ability to enable/disable some of the Aerial's menus (speed things up) and/or change directly script's values (ex Internet interface, wireless interface, channel, etc). Please refer to aerial.conf for detailed instructions.
+  * Selectable language/date format/long URLs for SARG.
+  * All inputs from users are filtered. You can't enter an invalid input. e.g. Internet interface, wireless interface, channel, CRDA, password, etc
+  * Multiple examples for correct usage of the script.
+  * Backup/restore of any configuration files or folders that it might be changed into the OS by the script.
+  * Downloading and installation of all required programs, if they are not present:
     - UDHCPD: Very small Busybox based DHCP server.
     - Aircrack-ng Suite: Wireless WEP/WPA cracking utilities.
     - Proxychains: Redirect connections through proxy servers.
@@ -94,19 +90,18 @@ Installation
     - Sslsplit: Transparent and scalable SSL/TLS interception.
     - Mitmproxy: SSL-capable man-in-the-middle HTTP proxy.
     - Honey Proxy: HTTP(S) Traffic investigation and analysis.
-   o Supplied with Aerial.0.x.x.tar.bz2:
+  * Supplied with Aerial.0.x.x.tar.bz2:
      - Airchat v2.1a: Wireless Fun. (No installation is required. The script will handles this).
      - Installation packages Squid3-i386 and Squid3-amd64 v.3.3.8 compiled with SSL Bumping 
        and Dynamic SSL Certificate Generation.
        (No installation is required. The script will handles this)
-  o Unique (per run) Trust Anchor Certificate.
-  o One common CA root certificate for the modes that requires a 
-    Trust Anchor Certificate:
+  * Unique (per run) Trust Anchor Certificate.
+  * One common CA root certificate for the modes that requires a Trust Anchor Certificate:
     - SSLsplit.
     - Mitmproxy.
     - Honeyproxy.
     - Squid in the Middle.
-  o Multiple formats of the CA certificate for all kind of clients:
+  * Multiple formats of the CA certificate for all kind of clients:
     - IOS. (not tested)
     - IOS Simulator. (not tested)
     - Firefox. (tested)
@@ -115,44 +110,40 @@ Installation
     - *nix systems. (tested)
     - Windows platforms. (tested)
     - Android 4.x devices. (tested)		
-  o Backup of the generated CA-certificates. (Just in case).
-  o Stop/kill of any running processes when we re-run the script.
-  o Ability to use any wireless NIC for the creation of the SoftAP.
-    (In case that more than one is installed)
-  o Auto-detect of Internet interface.
-  o Auto-detect of Wireless interface(s).
-  o Auto-detect of Wireless interface in monitor mode.
-  o Auto-detect of Wireless interface's capabilities:
+  * Backup of the generated CA-certificates. (Just in case).
+  * Stop/kill of any running processes when we re-run the script.
+  * Ability to use any wireless NIC for the creation of the SoftAP. (In case that more than one is installed)
+  * Auto-detect of Internet interface.
+  * Auto-detect of Wireless interface(s).
+  * Auto-detect of Wireless interface in monitor mode.
+  * Auto-detect of Wireless interface's capabilities :
     - Access point mode. (hostapd compatible).
     - Monitor mode. (airbase-ng compatible).
-    - Supported band:
+    - Supported band :
       - IEEE 802.11a - 5GHz (airbase-ng or hostapd). (not tested).
       - IEEE 802.11g - 2.4 GHz (airbase-ng or hostapd). (tested).
       - IEEE 802.11a/n - 5GHz High Throughput (Only with hostapd). (not tested).
       - IEEE 802.11g/n - 2.4GHz High Throughput (Only with hostapd). (tested).
-  o Ability to use Airbase-ng for the creation of the SoftAP.
-    (Your wireless NIC MUST support monitor mode).
-  o Ability to use Hostapd for the creation of the SoftAP.
-    (Your wireless NIC MUST support AP mode).
-  o Ability to set/change ESSID: Extended Service Set Identification.
-  o Ability to set/change MAC address: Media Access Control Address.
-  o Ability to set/change CRDA: Central Regulatory Domain Agent.
-  o Ability to set/change channel:
-    - Permitted to use channels are:
+  * Ability to use Airbase-ng for the creation of the SoftAP. (Your wireless NIC MUST support monitor mode).
+  * Ability to use Hostapd for the creation of the SoftAP. (Your wireless NIC MUST support AP mode).
+  * Ability to set/change ESSID: Extended Service Set Identification.
+  * Ability to set/change MAC address: Media Access Control Address.
+  * Ability to set/change CRDA: Central Regulatory Domain Agent.
+  * Ability to set/change channel :
+    - Permitted to use channels are :
      - IEEE 802.11g - 802.11g/n: 01 02 03 04 05 06 07 08 09 10 11 12 13 (tested).
      - IEEE 802.11a - 802.11a/n: 36 40 44 48 52 56 60 64 (not tested).
-    - Non permitted to uses channels are:
+    - Non permitted to uses channels are :
      - IEEE 802.11g - 802.11g/n: 14 (Japan) (tested).
      - IEEE 802.11a - 802.11a/n: 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161 165 (not tested).
-  o Informations about suggested channels to use for:
+  * Informations about suggested channels to use for :
     - IEEE 802.11a   - 5GHz (not tested)
     - IEEE 802.11a/n - 5GHz 20Mhz channel width. (not tested).
     - IEEE 802.11a/n - 5GHz 40Mhz channel width. (not tested).
     - IEEE 802.11g   - 2.4GHz (tested).
     - IEEE 802.11g/n - 2.4GHz 20Mhz channel width. (tested).
     - IEEE 802.11g/n - 2.4GHz 40Mhz channel width. (tested).
-  o Wireless card's IEEE 802.11n capabilities and auto-usage in hostapd:
-    (only when hostapd is selected).
+  * Wireless card's IEEE 802.11n capabilities and auto-usage in hostapd : (only when hostapd is selected).
     - Available Antenna(s).
     - Configured Antenna(s).
     - Supported channel width set (20Mhz/40Mhz).
@@ -167,12 +158,12 @@ Installation
     - Maximum A-MSDU length.
     - DSSS/CCK Mode in 40 MHz.
     - HT TX/RX MCS rate indexes supported.
-  o Ability to set/change Encryption:
-    - For airbase-ng based SoftAP:
+  * Ability to set/change Encryption :
+    - For airbase-ng based SoftAP :
       - OPEN no encryption.
       - WEP (ASCII password 40bits or 104bits).
       - WEP (HEX password 40bits or 104bits).
-    - For hostapd based SoftAP:
+    - For hostapd based SoftAP :
       - OPEN no encryption.
       - WEP (ASCII password 40bits or 104bits).
       - WEP (HEX password 40bits or 104bits).
@@ -180,24 +171,20 @@ Installation
         - When WPA2 encryption is selected you will have the ability to:
           - enable/disable Wi-Fi protected setup (WPS).
           - set WPS pin.
-  o Free Disk Space and free RAM Calculation for optimizing Squid3's functionality.
-  o Ability to use alternative DNS servers. (I'm using OPEN DNS servers.)
-  o Summary/information about Internet interface and the created SoftAP.
-  o Kernel's Entropy Pool Calculation. We make sure that hostapd will not run out
-    from random number. We use Haveged algorithm.
-  o Real time reports about who, what, when was visited by our WLAN.
-  o Detailed reports about who, what, when top sites, top sites/users etc was
-    visited by our WLAN.
-  o Informations about which daemons/programs are running and which and where the 
-    configuration files are used.
-  o Log files for almost all the modes.
-  o Specially for mode 10 due to a massive number of log files a search script will
-    be created (search.sh) to help do search queries into the sslsplit's log files.
-  o Real time information about connected clients, SoftAP's statistic informations
-    and leases granted by udhcp server (offered IPs to our clients).
-  o Awful English syntax and grammar :-)
+  * Free Disk Space and free RAM Calculation for optimizing Squid3's functionality.
+  * Ability to use alternative DNS servers. (I'm using OPEN DNS servers.)
+  * Summary/information about Internet interface and the created SoftAP.
+  * Kernel's Entropy Pool Calculation. We make sure that hostapd will not run out from random number. We use the Haveged algorithm.
+  * Real time reports about who, what, when was visited by our WLAN.
+  * Detailed reports about who, what, when top sites, top sites/users etc was visited by our WLAN.
+  * Informations about which daemons/programs are running and which and where the configuration files are used.
+  * Log files for almost all the modes.
+  * Specially for mode 10 due to a massive number of log files a search script will be created (search.sh) to help do search queries into the sslsplit's log files.
+  * Real time information about connected clients, SoftAP's statistic informations and leases granted by udhcp server (offered IPs to our clients).
 
-  o Fourteen Access Point modes:
+Fourteen Access Point modes :
+================
+
     1.  Simple WLAN - Clients can access Internet.
     ----------------------------------------------
         Aerial will act as an Access Point. No interception, no nothing.
@@ -329,24 +316,29 @@ Installation
     (*RTR: Real Time Reports with SARG.)
 
 
-  (1) Disable bss neighbor check/force 40 MHz channels patch.
-  ===========================================================
+(1) Disable bss neighbor check/force 40 MHz channels patch.
+===========================================================
+
   By default Hostapd does a check for overlapping channels with neighboring bss's 
   before enabling 40 MHz channels as proposed by IEEE 802.11(a/g)n. This however might
-  result in switching to 20 MHz channels in dense wlan areas. 
-  # hostapd -d /etc/hostapd/hostapd.conf
+  result in switching to 20 MHz channels in dense wlan areas:
+  
+    hostapd -d /etc/hostapd/hostapd.conf
     40 MHz affected channel range: [2407,2457] MHz
     Neighboring BSS: 00:19:xx:xx:xx:xx freq=2412 pri=0 sec=0
     Neighboring BSS: 9c:c7:xx:xx:xx:xx freq=2412 pri=1 sec=0
     Neighboring BSS: 88:25:xx:xx:xx:xx freq=2412 pri=1 sec=5
     40 MHz pri/sec mismatch with BSS 88:25:xx:xx:xx:xx <2412,2432> (chan=1+) vs. <2442,2422>
     20/40 MHz operation not permitted on channel pri=7 sec=3 based on overlapping BSSes
+  
   As a matter of fact hostapd acts as the regulations required, but most manufactures does 
   not perform that check and they broadcast with 40Mhz channels width no matter what.
   With this patch we let hostapd do that check but the results are ignored and we forcing
   hostapd to use 40Mhz channel width.
-  A working/forced example of 40MHz channel width:
-  # hostapd -d /etc/hostapd/hostapd.conf
+  
+  A working/forced example of 40MHz channel width :
+  
+    hostapd -d /etc/hostapd/hostapd.conf
     40 MHz affected channel range: [2407,2457] MHz
     Neighboring BSS: 00:19:xx:xx:xx:xx freq=2412 pri=0 sec=0
     Neighboring BSS: 9c:c7:xx:xx:xx:xx freq=2412 pri=1 sec=0
@@ -357,32 +349,27 @@ Installation
     nl80211: Set freq 2442 (ht_enabled=1, vht_enabled=0, bandwidth=40 MHz, cf1=2422 MHz, cf2=0 MHz)
     HT40: control channel: 7  secondary channel: 3
     Completing interface initialization
-  http://patchwork.ozlabs.org/patch/144477/
-  http://www.smallnetbuilder.com/wireless/wireless-features/31744-bye-bye-40-mhz-mode-in-24-ghz-part-2
-  http://www.brunsware.de/blog/gentoo/hostapd-40mhz-disable-neighbor-check.html
 
-  Known bugs
-  ==========
-  - By default the script will install Squid3 v3.1.20 from Kali repos. 
-    When mode 13 (Squid in the middle) is selected you will be prompted to
-    uninstall Squid3 3.1.20 and install Squid3 v3.3.8 with SSL support.
-    Squid3 3.1.20 and Squid3 3.3.8 they cannot co-exist. They are incompatible.
-    Unfortunately when Squid3 3.3.8 installed mode 8 (Flip, Blur, Swirl etc) and 
-    sub-menu for mode 8 will be dead. I couldn't find a way to make g0tmilk's 
-    scripts to work with Squid3 3.3.8. So, you will be prompt again to uninstall 
-    Squid3 3.3.8 and install again Squid3 3.1.20.
-    If you have an idea how make g0tmilk's scripts to work with Squid3 3.3.8 please let know.
-    It's very annoying this install/uninstall process.
-  - In modes 6 & 7 where sslstrip is used it's very common to encouraged corrupt or 
-    broken https sites. This has nothing to do with the script. Sslstrip doesn't works if:
+http://patchwork.ozlabs.org/patch/144477/
+http://www.smallnetbuilder.com/wireless/wireless-features/31744-bye-bye-40-mhz-mode-in-24-ghz-part-2
+http://www.brunsware.de/blog/gentoo/hostapd-40mhz-disable-neighbor-check.html
+
+Known bugs
+==========
+  * By default the script will install Squid3 v3.1.20 from Kali repos. When mode 13 (Squid in the middle) is selected you will be prompted to uninstall Squid3 3.1.20 and install Squid3 v3.3.8 with SSL support. Squid3 3.1.20 and Squid3 3.3.8 they cannot co-exist. They are incompatible. Unfortunately when Squid3 3.3.8 installed mode 8 (Flip, Blur, Swirl etc) and sub-menu for mode 8 will be dead. I couldn't find a way to make g0tmilk's scripts to work with Squid3 3.3.8. So, you will be prompt again to uninstall Squid3 3.3.8 and install again Squid3 3.1.20. If you have an idea how make g0tmilk's scripts to work with Squid3 3.3.8 please let know. It's very annoying this install/uninstall process.
+  * In modes 6 & 7 where sslstrip is used it's very common to encouraged corrupt or broken https sites. This has nothing to do with the script. Sslstrip doesn't works if :
     - The client requests an address with HTTPS directly, e.g. HTTPS://www.example.com
     - The web site have the support for HSTS, that forces a browser to solely 
       interact with the server using HTTPS.
     - The client is a smart-phone AND the user use an app (app like gmail, facebook etc. works only with HTTPS).
-    https://forums.kali.org/showthread.php?17926-Fake-access-point-ettercap-sslstrip&p=29220&viewfull=1#post29220
-    http://blog.csnc.ch/tag/sslstrip/
-    http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
-    Credits to repzeroworld (Kali Forums) for clarifying me how sslstrip works.
+
+https://forums.kali.org/showthread.php?17926-Fake-access-point-ettercap-sslstrip&p=29220&viewfull=1#post29220
+
+http://blog.csnc.ch/tag/sslstrip/
+
+http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+
+Credits to repzeroworld (Kali Forums) for clarifying me how sslstrip works.
 
   Tested
   ======
@@ -406,8 +393,9 @@ Installation
 
   The Latest Version
   ==================
-  Details of the latest version can be found on the Kali forums
-  <https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point>
+  Details of the latest version can be found on the Kali forums.
+  
+  https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point
 
   Documentation
   =============
@@ -425,10 +413,12 @@ Installation
 
   Contacts
   ========
-  o If you want to be informed about new code releases, please visit:
-    <  https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point>
+  * If you want to be informed about new code releases, please visit :
+  
+  https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point
 
-  o You can contact me at:
-    <https://forums.kali.org/member.php?24689-Nick_the_Greek>
+  * You can contact me at :
+  
+  https://forums.kali.org/member.php?24689-Nick_the_Greek
 
-(c) 2014 Nick_the_Greek=
+(c) 2014 Nick_the_Greek
