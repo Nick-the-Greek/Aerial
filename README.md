@@ -37,14 +37,8 @@ The script is meanly splitted in two major sections:
 Installation
 ============
   No installation is required.
-  Download the latest bz2 file and
-  check integrity by:
-  echo ""sha1sum goes here"  Aerial_0.x.x.x.tar.bz2" | sha1sum -c -
+  Just run it by :
   
-  extract it:
-  tar jxf Aerial.0.x.x.tar.bz2
-
-  and run it by:
   sh Aerial.sh
 
   Relax and let the script download/install, create CA certificates etc that
@@ -62,7 +56,7 @@ Installation
   that invoke that "Mode". So the only thing that you have to do, is to run any "Mode" and 
   then look at the corresponding folder of that "Mode".
   If a "Mode" is never executed, none folder will be created for that "Mode".
-
+  
   Features
   ========
   o Menu driven.
@@ -437,4 +431,4 @@ Installation
   o You can contact me at:
     <https://forums.kali.org/member.php?24689-Nick_the_Greek>
 
-(c) 2014 Nick_the_Greek
+(c) 2014 Nick_the_Greek=
