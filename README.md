@@ -30,8 +30,9 @@ History
 About the script
 ================
 The script is meanly splitted in two major sections:
- 1) How will we create the SoftAP and how we want it to act. e.g. Hostapd or airbase-ng based / in which band it will broadcast / it should be encrypted (WEP/WPA2) or not (OPEN) / WPS should be enabled/ DHCP server / DNS forward etc.
- 2) Now that we have created the SoftAP, what we should do with the incoming and outgoing traffic ? (encrypted or not). Here comes the "14 modes". As long as we have the clients connected to our Kali box, we can do whatever we want with that traffic. We can intercept, proxy, redirect, do MITM attacks, force the clients to visit a specific page, inject Java code etc.
+
+ 1. How will we create the SoftAP and how we want it to act. e.g. Hostapd or airbase-ng based / in which band it will broadcast / it should be encrypted (WEP/WPA2) or not (OPEN) / WPS should be enabled/ DHCP server / DNS forward etc.
+ 2. Now that we have created the SoftAP, what we should do with the incoming and outgoing traffic ? (encrypted or not). Here comes the "14 modes". As long as we have the clients connected to our Kali box, we can do whatever we want with that traffic. We can intercept, proxy, redirect, do MITM attacks, force the clients to visit a specific page, inject Java code etc.
 
 Installation
 ============
