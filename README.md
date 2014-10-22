@@ -350,12 +350,13 @@ Fourteen Access Point modes :
     HT40: control channel: 7  secondary channel: 3
     Completing interface initialization
 
-http://patchwork.ozlabs.org/patch/144477/
-http://www.smallnetbuilder.com/wireless/wireless-features/31744-bye-bye-40-mhz-mode-in-24-ghz-part-2
-http://www.brunsware.de/blog/gentoo/hostapd-40mhz-disable-neighbor-check.html
+ http://patchwork.ozlabs.org/patch/144477/
+ http://www.smallnetbuilder.com/wireless/wireless-features/31744-bye-bye-40-mhz-mode-in-24-ghz-part-2
+ http://www.brunsware.de/blog/gentoo/hostapd-40mhz-disable-neighbor-check.html
 
 Known bugs
 ==========
+
   * By default the script will install Squid3 v3.1.20 from Kali repos. When mode 13 (Squid in the middle) is selected you will be prompted to uninstall Squid3 3.1.20 and install Squid3 v3.3.8 with SSL support. Squid3 3.1.20 and Squid3 3.3.8 they cannot co-exist. They are incompatible. Unfortunately when Squid3 3.3.8 installed mode 8 (Flip, Blur, Swirl etc) and sub-menu for mode 8 will be dead. I couldn't find a way to make g0tmilk's scripts to work with Squid3 3.3.8. So, you will be prompt again to uninstall Squid3 3.3.8 and install again Squid3 3.1.20. If you have an idea how make g0tmilk's scripts to work with Squid3 3.3.8 please let know. It's very annoying this install/uninstall process.
   * In modes 6 & 7 where sslstrip is used it's very common to encouraged corrupt or broken https sites. This has nothing to do with the script. Sslstrip doesn't works if :
     - The client requests an address with HTTPS directly, e.g. HTTPS://www.example.com
@@ -371,8 +372,9 @@ http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
 
 Credits to repzeroworld (Kali Forums) for clarifying me how sslstrip works.
 
-  Tested
-  ======
+Tested
+======
+
   - Script running on:
     - Kali Linux 1.0.6 (x32 x64).
     - Kali Linux 1.0.7 (x32 x64).
@@ -391,34 +393,37 @@ Credits to repzeroworld (Kali Forums) for clarifying me how sslstrip works.
     - Windows 8.1 64bit.
     - Android 4.x devices.
 
-  The Latest Version
-  ==================
-  Details of the latest version can be found on the Kali forums.
+The Latest Version
+==================
+
+  Details of the latest version can be found on the Kali forums and here at github :
   
   https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point
 
-  Documentation
-  =============
+Documentation
+=============
+
   No documentation available yet. Only this README file.
 
-  Licensing
-  =========
+Licensing
+=========
+
   Please see the file called COPYING.
 
-  Credits
-  =========
+Credits
+=========
+
   To my mentor: Gitsnik
   For their replies:
   zimmaro dataghost
 
-  Contacts
-  ========
+Contacts
+========
+
   * If you want to be informed about new code releases, please visit :
-  
   https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point
 
   * You can contact me at :
-  
   https://forums.kali.org/member.php?24689-Nick_the_Greek
 
 (c) 2014 Nick_the_Greek
