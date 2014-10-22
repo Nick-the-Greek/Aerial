@@ -10,8 +10,8 @@ What is it ?
   
   *When Hostapd is used and depending on your wireless NIC's capabilities.
 
-  History
-  =======
+History
+=======
   Aerial is the continuous development of 2009's "wlan_nick" bash script:
   http://www.backtrack-linux.org/forums/showthread.php?t=23068
   
