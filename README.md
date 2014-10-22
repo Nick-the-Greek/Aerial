@@ -2,8 +2,8 @@
                        Aerial v. 0.14.0.9  - Thu 09 Oct 2014
 
 
-  What is it?
-  ===========
+  What is it ?
+  ============
   Aerial is on of the easiest ways to create a full capable*, high speed*, at any band (5GHz or
   2.4GHz), high through IEEE 802.11n* or not, with Wi-Fi protected setup* (WPS)
   or not, Software Access point on a Kali-Linux box with manipulated/intercepted/injected/
@@ -39,27 +39,6 @@
       as we have the clients connected to our Kali box, we can do whatever we want with
       that traffic. We can intercept, proxy, redirect, do MITM attacks, force the 
       clients to visit a specific page, inject Java code etc.
-
-  Files:
-  ======
-  Aerial.0.x.x
-    |
-    |-Aerial.sh (main script).
-    |-README (this file).
-    |-COPYING (License).
-    |-CHANGELOG (Version History).
-    |-dependencies folder:
-          |
-          |-airchat_2.1a folder - airchat.tar.bz2 
-          |                     (Needed for mode 3)
-          |                                                          |-squid3_3.3.8-1.1Kali1_amd64.deb
-          |                     |-squid3_3.3.8-1.1Kali1_amd64 folder-|-squid3-common_3.3.8-1.1Kali1_all.deb
-          |                     |    (for mode 13 - Kali x64)        |-squid-langpack_20140506-1.1Kali1_all.deb
-          |-squid3_3.3.8 folder-|
-                                |                                    |-squid3_3.3.8-1.1Kali1_i386.deb
-                                |-squid3_3.3.8-1.1Kali1_i386 folder -|-squid3-common_3.3.8-1.1Kali1_all.deb
-                                      (for mode 13 - Kali x32)       |-squid-langpack_20140506-1.1Kali1_all.deb
-                                                                     
 
   Installation
   ============
