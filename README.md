@@ -7,7 +7,8 @@ What is it ?
   2.4GHz), high through IEEE 802.11n* or not, with Wi-Fi protected setup* (WPS)
   or not, Software Access point on a Kali-Linux box with manipulated/intercepted/injected/
   forced/proxied/MITMed or not traffic.
-  * When Hostapd is used and depending on your wireless NIC's capabilities.
+  
+  *When Hostapd is used and depending on your wireless NIC's capabilities.
 
   History
   =======
