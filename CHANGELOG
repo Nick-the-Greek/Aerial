@@ -2,6 +2,8 @@ Aerial (0.14.1.0) UNRELEASED; urgency=low
 
   * Fixed/changed the way we check Internet connectivity.
   * Some nmcli's words will displayed in Kali's native language.
+  * Fixed README.md for github.
+  
 
  -- Nick_the_Greek <hidden>  Sat, 11 Oct 2014 21:34:05 +0000
 
