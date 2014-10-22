@@ -1,0 +1,550 @@
+Aerial (0.14.1.0) UNRELEASED; urgency=low
+
+  * Fixed/changed the way we check Internet connectivity.
+  * Some nmcli's words will displayed in Kali's native language.
+
+ -- Nick_the_Greek <hidden>  Sat, 11 Oct 2014 21:34:05 +0000
+
+Aerial (0.14.0.9) UNRELEASED; urgency=low
+
+  * Fixed colored dialogs in Kali Linux, thanx
+    to dataghost.
+  * Added forgoten wireless interface down when airbase-ng
+    is used thank to dataghost.
+  * Removed the "waiting to connected to Internet" routine
+    and replaced with simple sleep command, thank to zimmaro.
+  * Added correct links in README file.
+  * Added credits to zimmaro and dataghost in README file.
+
+ -- Nick_the_Greek <hidden>  Tue, 09 Oct 2014 22:51:34 +0000
+
+Aerial (0.14.0.8) UNRELEASED; urgency=low
+
+  * Fixed a bug when installing TOR and/or I2P and
+    public keys to sign the repository are expired
+    or the servers are unreachable.
+  * Added note about World regulatory domain.
+
+ -- Nick_the_Greek <hidden>  Tue, 01 Oct 2014 08:51:15 +0000
+
+Aerial (0.14.0.7) UNRELEASED; urgency=low
+
+  * Better handling of aerial.conf.
+  * Minor bug fixes.
+
+ -- Nick_the_Greek <hidden>  Tue, 30 Sep 2014 22:31:12 +0000
+
+Aerial (0.14.0.6) UNRELEASED; urgency=low
+
+  * Fixed a bug when restoring wireless NIC.
+  * Fixed some typos.
+
+ -- Nick_the_Greek <hidden>  Tue, 30 Sep 2014 13:36:55 +0000
+
+Aerial (0.14.0.5) UNRELEASED; urgency=low
+
+  * Script's configuration file named aerial.conf
+  * Fixed messages in MAC change routine.
+
+ -- Nick_the_Greek <hidden>  Sun, 28 Sep 2014 13:16:00 +0000
+
+Aerial (0.14.0.4) UNRELEASED; urgency=low
+
+  * Cosmetic changes.
+  * Syntax and grammar fixes.
+
+ -- Nick_the_Greek <hidden>  Sun, 28 Sep 2014 13:16:00 +0000
+
+Aerial (0.14.0.3) UNRELEASED; urgency=low
+
+  * Java in the Middle:
+    - Fixed empty captured_data.txt file.
+    - Added option to use your own Java script file.
+    - Added information about what injected file is used.
+    - Minor bug fixes.
+    - Cosmetic changes.
+
+ -- Nick_the_Greek <hidden>  Sun, 28 Sep 2014 10:41:12 +0000
+
+Aerial (0.14.0.2) UNRELEASED; urgency=low
+
+  * Fixed empty udhcpd.leases file.
+  * Added information window about who is connected,
+    link quality, udchp IPs served to our clients etc.
+
+ -- Nick_the_Greek <hidden>  Sat, 27 Sep 2014 22:25:38 +0000
+
+Aerial (0.14.0.1) UNRELEASED; urgency=low
+
+  * Added sub menu for Java in the middle mode 14:
+    Select between the two scripts
+  * Mode 14 and two scripts are tested. Working!
+  * Fixed mode 14 messages.
+  * Moved mode 14 sub-menu at the begging. 
+
+ -- Nick_the_Greek <hidden>  Fri, 26 Sep 2014 23:30:22 +0000
+
+Aerial (0.14.0.0) UNRELEASED; urgency=low
+
+  * Starting code for Java in the Middle, mode 14.
+  * Added new dir: Java_Injection in $HOME_DIR.
+  * Added redirection script: inject Java scripts in
+    /usr/local/bin/
+  * Added injection script: "annoying message" in 
+    $HOME_DIR/Java_Injection/
+  * Added injection script: "capture forms".
+    $HOME_DIR/Java_Injection/
+  * Added PHP script: getData.php in /var/www/injection/
+  * Added capture data file:captured_data.txt in 
+    $HOME_DIR/Java_Injection/
+
+ -- Nick_the_Greek <hidden>  Fri, 26 Sep 2014 23:04:46 +0000
+
+Aerial (0.13.9.6) UNRELEASED; urgency=low
+
+  * Fixed Internet and wireless interfaces when
+    wake up from suspend.
+  * Reset IEEE 802.11n capabilities when airbase-ng
+    selected.
+
+ -- Nick_the_Greek <hidden>  Thu, 25 Sep 2014 11:30:46 +0000
+
+Aerial (0.13.9.6) UNRELEASED; urgency=low
+
+  * Fixed IEEE 802.11 High Throughput capabilities menu.
+  * Fixed WPA2 menu.
+  * Fixed Wi-Fi protected setup (WPS) menu.
+  * Corrected SoftAP's summary information.
+
+ -- Nick_the_Greek <hidden>  Wed, 24 Sep 2014 11:48:16 +0000
+
+Aerial (0.13.9.5) UNRELEASED; urgency=low
+
+  * Added example for IEEE 802.11 draft 2.0 40MHz channel width.
+  * Added SoftAP's summary information for:
+    - IEEE892.11 a
+    - IEEE892.11 a/n 20 MHz channels width.
+    - IEEE892.11 g
+    - IEEE892.11 g/n 40 MHz channels width.
+  * Added as an reminder WPS virtual push button command in 
+    every mode.
+  * Fixed some typos.
+  * Minor fixes.
+
+ -- Nick_the_Greek <hidden>  Tue, 23 Sep 2014 22:23:30 +0000
+
+Aerial (0.13.9.4) UNRELEASED; urgency=low
+
+  * Fixed airbase-ng negative channel when switching
+    from hostapd to airbase-ng and vice versa and only
+    HOSTAP_AIRBASE_PROMPT in wlan.conf is set to yes.
+
+ -- Nick_the_Greek <hidden>  Mon, 22 Sep 2014 20:35:20 +0000
+
+Aerial (0.13.9.3) UNRELEASED; urgency=low
+
+  * Fixed WPA2 can't be used when airbase-ng is selected and 
+    flags in wlan.conf are set to "no".
+  * README file created.
+
+ -- Nick_the_Greek <hidden>  Sun, 21 Sep 2014 19:06:56 +0000
+
+Aerial (0.13.9.2) UNRELEASED; urgency=low
+
+  * Spell check.
+  * Syntax and grammar corrections. (My English are getting worst!)
+
+ -- Nick_the_Greek <hidden>  Sun, 21 Sep 2014 07:17:56 +0000
+
+Aerial (0.13.9.1) UNRELEASED; urgency=low
+
+  * Corrected pem to pkcs12 CA-root certificate format.
+  * Hostapd running as daemon.
+
+ -- Nick_the_Greek <hidden>  Sat, 20 Sep 2014 21:10:56 +0000
+
+Aerial (0.13.9.0) UNRELEASED; urgency=low
+
+  * Added WPS virtual push button command.
+  * Added WPS links.
+  * Real lab environment tests:
+    - Internet  : pci:ath5k and vice versa.
+    - Wireless : usb:rt2800 and vice versa.
+    - Clients: Windows 8.1, Kali Linux 1.0.9, Android device 4.x
+  * Hostapd based:
+    - 802.11 g
+    - 802.11 g/n 20MHz channel width.
+    - 802.11 g/n 40MHz channel width.
+    - Encryption OPEN
+    - Encryption WPA2:
+      - WPS on.
+      - WPS off.
+  * All modes tested.
+
+ -- Nick_the_Greek <hidden>  Sat, 20 Sep 2014 18:15:56 +0000
+
+Aerial (0.13.8.9) UNRELEASED; urgency=low
+
+  * Fixed Wi-Fi protected Setup (WPS) menu enabled only when WPA2 encryption is used.
+  * Error messages corrected.
+
+ -- Nick_the_Greek <hidden>  Fri, 19 Sep 2014 22:00:11 +0000
+
+Aerial (0.13.8.8) UNRELEASED; urgency=low
+
+  * Added Wi-Fi protected Setup (WPS) information at SoftAP's summary.
+  * Corrected WPA2 variables.
+
+ -- Nick_the_Greek <hidden>  Thu, 18 Sep 2014 22:35:12 +0000
+
+Aerial (0.13.8.7) UNRELEASED; urgency=low
+
+  * Finished code for Wi-Fi protected Setup (WPS).
+  * WPS test with Android 4.x device. (working!)
+  * Fixed WEP encryption.
+  * Fixed WPA2 encryption.
+  * Bug fixes.
+
+ -- Nick_the_Greek <hidden>  Wed, 17 Sep 2014 22:40:10 +0000
+
+Aerial (0.13.8.6) UNRELEASED; urgency=low
+
+  * Added menu for for Wi-Fi protected Setup (WPS).
+  * Filtering user input for SoftAP's WPS PIN: Can be any number exact 8 digits long.
+  * Added multiple information for Wi-Fi protected Setup (WPS) in hostapd.conf file.
+  * Bug fixes.
+
+ -- Nick_the_Greek <hidden>  Tue, 16 Sep 2014 21:01:15 +0000
+
+Aerial (0.13.8.5) UNRELEASED; urgency=low
+
+  * Starting code for Wi-Fi protected Setup (WPS).
+  * Added support for 5GHz channels in airbase-ng based SoftAP.
+
+ -- Nick_the_Greek <hidden>  Mon, 15 Sep 2014 22:09:12 +0000
+
+Aerial (0.13.8.4) UNRELEASED; urgency=low
+
+  * Added license.
+
+ -- Nick_the_Greek <hidden>  Sun, 14 Sep 2014 09:14:00 +0000
+
+Aerial (0.13.6.8) UNRELEASED; urgency=low
+
+  * Real lab environment tests:
+    - Internet  : pci-e:rt2800 and vice versa.
+    - Wireless : usb:rt2800 and vice versa.
+    - Clients: Windows 8.1, Kali Linux 1.0.9, Android device 4.x
+  * Hostapd based:
+    - 802.11 g.
+    - 802.11 g/n 20MHz.
+    - 802.11 g/n 40MHz.
+    - Encryption OPEN.
+    - Encryption WPA2.
+    - All modes tested.
+  * Airbase-ng based:
+    - 802.11 g
+    - Encryption OPEN.
+    - Encryption WEP (ASCII 40bits).
+    - Encryption WEP (ASCII 104bits).
+    - Encryption WEP (HEX 40bits).
+    - Encryption WEP (HEX 104bits).
+    - All modes tested.
+  * Cosmetic changes.
+  * Bug fixes.
+
+ -- Nick_the_Greek <hidden>  Sat, 13 Sep 2014 10:32:07 +0000
+
+Aerial (0.13.5.1) UNRELEASED; urgency=low
+
+  * Fixed wlan.conf file.
+  * Added texts to wlan.conf.
+  * Alot of changes and fixes.
+
+ -- Nick_the_Greek <hidden>  Fri, 12 Sep 2014 22:50:11 +0000
+
+Aerial (0.13.4.1) UNRELEASED; urgency=low
+
+  * Fixed backup menu.
+  * Corrected backup files.
+  * Installation, start-stop etc messages are changed to fit with system's messages.
+  * Do not show output when compiling, installing etc.
+
+ -- Nick_the_Greek <hidden>  Thu, 11 Sep 2014 21:54:06 +0000
+
+Aerial (0.13.3.2) UNRELEASED; urgency=low
+
+  * Added patch for hostapd compiling:
+    - Disable bss neighbor check/force 40 MHz channels in hostapd
+  * Finished suggested channels in 2.4GHz and 5GHz bands.
+  * Suggested channels to use for:
+    - 802.11 a
+    - 802.11 g
+    - 802.11 a/n 20MHz channel width.
+    - 802.11 a/n 40MHz channel width.
+    - 802.11 g/n 20MHz channel width.
+    - 802.11 g/n 40MHz channel width.		
+  * Major changes.
+  * Bug fixes.
+
+ -- Nick_the_Greek <hidden>  Wed, 10 Sep 2014 23:07:09 +0000
+
+Aerial (0.13.3.1) UNRELEASED; urgency=low
+
+  * Added code: suggested channels in 2.4GHz and 5GHz bands.
+  * Added code: IEEE80211n in 2.4GHz and 5GHz bands.
+
+ -- Nick_the_Greek <hidden>  Tue, 09 Sep 2014 21:37:19 +0000
+
+Aerial (0.13.2.1) UNRELEASED; urgency=low
+
+  * Finished honeyproxy.
+
+ -- Nick_the_Greek <hidden>  Tue, 02 Sep 2014 22:39:11 +0000
+
+Aerial (0.13.1.5) UNRELEASED; urgency=low
+
+  * Added code for honeyproxy.
+  * Finished 5GHz support (in theory again).
+
+ -- Nick_the_Greek <hidden>  Sat, 30 Aug 2014 07:10:01 +0000
+
+Aerial (0.13.1.4) UNRELEASED; urgency=low
+
+  * Added CRDA country code change.
+  * Starting 5GHz support with hostapd (in theory).
+
+ -- Nick_the_Greek <hidden>  Sat, 23 Aug 2014 07:40:12 +0000
+
+Aerial (0.13.1.3) UNRELEASED; urgency=low
+
+  * Using of g0tmilk scripts:
+    - Flipped images.
+    - Blurred images.
+    - Swirled images.
+  * Added Tourette images mode.
+  * Added ASCII images mode.
+  * Change mode 2 Proxied WLAN to Transparent HTTP Proxied WLAN Optimized for low Internet Speeds.
+
+ -- Nick_the_Greek <hidden>  Sat, 16 Aug 2014 07:07:02 +0000
+
+Aerial (0.13.1) UNRELEASED; urgency=low
+
+  * Added code from g0tmilk scripts:
+   - https://code.google.com/p/g0tmi1k/source/browse/trunk/squidScripts/
+
+ -- Nick_the_Greek <hidden>  Sat, 09 Aug 2014 06:05:13 +0000
+
+Aerial (0.12.6) UNRELEASED; urgency=low
+
+  * Finished Squid in The Middle - Transparent HTTP(S) proxied WLAN.
+  * Alot of the code is rewritten from the scratch.
+  * Many bug fixes.
+  * Cosmetic changes.
+
+ -- Nick_the_Greek <hidden>  Sat, 02 Aug 2014 05:45:11 +0000
+
+Aerial (0.12.1) UNRELEASED; urgency=low
+
+  * Added code for Squid in The Middle - Transparent HTTP(S) proxied WLAN.
+
+ -- Nick_the_Greek <hidden>  Sat, 26 Jul 2014 07:13:09 +0000
+
+Aerial (0.11.30) UNRELEASED; urgency=low
+
+  * Finished Trust Anchor Certificates (root CA):
+    - Aerial-ca.key - CA private key. for: Proxies Squid in the Middle, SSLsplit.
+    - Aerial-ca.crt      = CA certificate. for: Proxies : Squid in the Middle, SSLsplit.
+    - Aerial-ca.pem      = CA private key and certificate in PEM format. for: Proxies : MiTMProxy, HoneyProxy.
+    - Aerial-ca-cert.pem = CA certificate in PEM format. for :Clients: IOS,IOS Simulator,Firefox,Java,OSX,*nix systems.
+    - Aerial-ca-cert.p12 = CA certificate in PKCS12 format.for: Clients: Windows platforms.
+    - Aerial-cert.crt = CA-private key and certificate encoded in binary DER.for: Clients: Android 4.x devices.
+  * Added mode 10 - Transparent and scalable SSL/TLS intercepted WLAN (SSLsplit).
+  * Added mode 11 - Transparent HTTP(S) intercepted WLAN (mitmproxy).
+
+ -- Nick_the_Greek <hidden>  Sat, 19 Jul 2014 07:27:19 +0000
+
+Aerial (0.11.1) UNRELEASED; urgency=low
+
+  * Code clean-up.
+  * Removed TOR tunnel mode.
+  * Added TOR (anonymous surfing).
+  * Added I2p (anonymous surfing).
+  * Added code for SSLsplit.
+  * Added code for mitmproxy.
+  * Starting code for Trust Anchor Certificates (root CA) generation.
+
+ -- Nick_the_Greek <hidden>  Sat, 12 Jul 2014 10:30:15 +0000
+
+Aerial (0.11.0) UNRELEASED; urgency=low
+
+  * Kali 1.0.7 (x86 - x64) compatible.
+
+ -- Nick_the_Greek <hidden>  Sat, 05 Jul 2014 06:44:11 +0000
+
+Aerial (0.10.9) UNRELEASED; urgency=low
+
+  * Starting to make the script Kali (x86 - x64) compatible.
+
+ -- Nick_the_Greek <hidden>  Sat, 28 Jun 2014 09:11:19 +0000
+
+Aerial (0.10.8) UNRELEASED; urgency=low
+
+  * BT5R3 compatible.
+
+ -- Nick_the_Greek <hidden>  Sat, 21 Jun 2014 07:14:10 +0000
+
+Aerial (0.10.1) UNRELEASED; urgency=low
+
+  * Starting to make the script BT5R3 compatible.
+
+ -- Nick_the_Greek <hidden>  Sat, 14 Jun 2014 06:26:20 +0000
+
+Aerial (0.9.6) unstable; urgency=low
+
+  * Finished with Hostapd.
+  * WPA-PSK supported for the encryption of SoftAP.
+
+ -- Nick_the_Greek <hidden>  Sun, 22 Jan 2012 10:45:14 +0000
+
+Aerial (0.9.1) UNRELEASED; urgency=low
+
+  * Added code for Hostapd.
+
+ -- Nick_the_Greek <hidden>  Fri, 05 Jan 2012 05:11:09 +0000
+
+Aerial (0.8.1) unstable; urgency=low
+
+  * Start code for TOR tunnel
+  * Added :Download - compile and install TOR tunnel and its dependencies.
+  * Added: Download the exit nodes list. Named exit_nodes.txt saved in $HOME_DIR. Auto open with kwrite.
+  * Using squid3 as an upstream for the tor tunnel. (Can't find any other working way).
+  * Tested with 77.131.159.155 (Germany) as an exit node. (socks 5).
+
+ -- Nick_the_Greek <hidden>  Sat, 02 Jan 2010 08:12:00 +0000
+
+Aerial (0.8.0) UNRELEASED; urgency=low
+
+  * Code clean-up.
+  * Added mode 7: Air chat.
+
+ -- Nick_the_Greek <hidden>  Fri, 01 Jan 2010 11:14:13 +0000
+
+Aerial (0.7.9) UNRELEASED; urgency=low
+
+  * Code clean-up.
+  * Filtering user input for SoftAP's ESSID: Can be any printable, up to 31, character (except space and "\").
+  * Filtering user input for SoftAP's MAC address: Can be any HEX character. Exact 12 characters long.
+  * Filtering user input for SoftAP's Channel: Can be any number from 1 to 13.
+
+ -- Nick_the_Greek <hidden>  Sun, 27 Dec 2009 06:23:1 +0000
+
+Aerial (0.7.8) UNRELEASED; urgency=low
+
+  * Code clean-up
+  * Fix a bug with the displayed nbpps value in master mode. It is displayed in all types of created AP (master and monitor).
+  * When restoring iptables we disable IP forward: echo 0 > /proc/sys/net/ipv4/ip_forward.
+  * Auto-detection of WEP key (ASCII 5 or 10 characters) HEX (10 or 26 characters).
+  * WEP ASCII keys can be any printable character except space and "\" character.
+
+ -- Nick_the_Greek <hidden>  Sun, 20 Dec 2009 05:16:21 +0000
+
+Aerial (0.7.7) UNRELEASED; urgency=low
+
+  * Added Nbpps_USE and Nbpps_VALUE to wlan.conf (-x for airbase-ng).
+  * -x <value= This sets the number of packets per second transmission rate (default: 100).
+
+ -- Nick_the_Greek <hidden>  Sat, 12 Dec 2009 08:26:29 +0000
+
+Aerial (0.7.6) UNRELEASED; urgency=low
+
+  * Finish WEP encryption.
+  * Added ENCRYPTION and KEY to wlan.conf
+  * Tested all modes - all type and lengths of WEP keys.
+
+ -- Nick_the_Greek <hidden>  Sat, 05 Dec 2009 06:59:23 +0000
+
+Aerial (0.7.5) experimental; urgency=low
+
+  * Remove sslsniff v0.6 x86.
+    - not working need to install a very old browser version.
+  * Added code for WEP encryption.
+
+ -- Nick_the_Greek <hidden>  Fri, 27 Nov 2009 10:45:09 +0000
+
+Aerial (0.7.4) UNRELEASED; urgency=low
+
+  * Added code for sslsniff.
+  * Finish download - installation script for sslsniff v0.6 x86.
+  * Bug fixes.
+
+ -- Nick_the_Greek <hidden>  Fri, 13 Nov 2009 08:00:11 +0000
+
+Aerial (0.7.3) UNRELEASED; urgency=low
+
+  * Finished Mode 5:"Upside down, Blur, Swirl client's browser images".
+  * Added code for Mode 6 "Forced downloading files".
+  * Add in menu Mode 6: 
+    - Made mode 6's redirect.pl. For *.exe *.zip *.rar *.doc
+  * Using empty files for testing. (test.exe, test.zip. test.rar, test.doc" all located at /tmp/bad_files/
+  * Tested and worked.
+
+ -- Nick_the_Greek <hidden>  Fri, 06 Nov 2009 05:58:13 +0000
+
+Aerial (0.7.2) UNRELEASED; urgency=low
+
+  * cache.log from squid3 :
+  * "2009/10/27 23:02:35| WARNING: 7 pending requests queued"
+  * "2009/10/27 23:02:35| Consider increasing the number of redirector processes in your config file."
+  * In squid.conf, changed : 'redirect_children 7' to : 'redirect_children 12'
+  * Mode 5 and it's sub-options tested and worked.
+
+ -- Nick_the_Greek <hidden>  Thu, 29 Oct 2009 07:12:09 +0000
+
+Aerial (0.7.1) UNRELEASED; urgency=low
+
+  * Finished colored dialogs.
+  * Added in script:
+    - Download-install apache2 only if isn't installed.
+    - Download-install ImageMagic only if isn't installed.
+    - Backup httpd.conf.
+    - Modify httpd.conf "ServerName localhost". No message "Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName".
+    - Restore of httpd.conf in restore-routine.
+  * Added code for Upside-Down Ternet from Paros.
+    - flip.
+    - blur 1 (Gitsnik your are my man).
+    - swirl 160 (degrees).
+  * Made redirect scripts for a ,b ,c.
+  * Added support for bmp image files in all redirecting scripts When mode 5 is selected then add:
+    - "url_rewrite_program /usr/local/bin/redirect.pl" in squid3.conf.
+    - "redirect_children 7" in squid3.conf.
+
+ -- Nick_the_Greek <hidden>  Sat, 24 Oct 2009 06:19:11 +0000
+
+Aerial (0.7.0) UNRELEASED; urgency=low
+
+  * Starting colored dialogs (For fun).
+  * Fixed error in master mode "ath0: error fetching interface information: Device not found" when getting current mac address.
+  * Removed MTU_SIZE from main script and added to wlan.conf file. MTU value remains at 1400 (for monitor mode interface).
+
+ -- Nick_the_Greek <hidden>  Tue, 20 Oct 2009 09:13:19 +0000
+
+Aerial (0.6.9) UNRELEASED; urgency=low
+
+  * Fixed wrong iptables rules.
+  * Possible MTU problem for some Alpha cards.(Not solved. No replies from users.)
+  * Reports from users:
+    - Orinoco card 8480-FC (Atheros based) works great.
+    - iPhones works (MTU 1500). From mikec.
+    - BT4 in VMWare Fusion 2.0.5 works. From mikec.
+    - iMacs don't work (No reply) From mikec.
+    - BT4 in VMware workstation, eth0 for inet and wlan0 with my ALFA network model: AWUS036E worked From BT2008.
+
+ -- Nick_the_Greek <hidden>  Tue, 19 Oct 2009 11:37:09 +0000
+
+Aerial (0.6.8) experimental; urgency=low
+
+  * First public release. Not working modes 3 and 4.
+
+ -- Nick_the_Greek <hidden>  Sun, 10 Oct 2009 06:26:20 +0000
+
