@@ -13,8 +13,8 @@ What is it ?
 History
 =======
   Aerial is the continuous development of 2009's "wlan_nick" bash script:
-  http://www.backtrack-linux.org/forums/showthread.php?t=23068
-  
+  * <a href="http://www.backtrack-linux.org/forums/showthread.php?t=23068">How to: E-Z setup a Multi Mode WLAN based on a Fake AP/</a>
+
   First of all Aerial is a HUGH bash script. Maybe it's the longest bash script
   you ever seen. It's an 8000 lines long including comments, references, examples etc. 
   I think, this is no good. I'm sure that there is a easiest way to write it but 
@@ -350,9 +350,9 @@ Fourteen Access Point modes :
     HT40: control channel: 7  secondary channel: 3
     Completing interface initialization
 
- http://patchwork.ozlabs.org/patch/144477/
- http://www.smallnetbuilder.com/wireless/wireless-features/31744-bye-bye-40-mhz-mode-in-24-ghz-part-2
- http://www.brunsware.de/blog/gentoo/hostapd-40mhz-disable-neighbor-check.html
+ * http://patchwork.ozlabs.org/patch/144477/
+ * http://www.smallnetbuilder.com/wireless/wireless-features/31744-bye-bye-40-mhz-mode-in-24-ghz-part-2
+ * http://www.brunsware.de/blog/gentoo/hostapd-40mhz-disable-neighbor-check.html
 
 Known bugs
 ==========
@@ -364,11 +364,9 @@ Known bugs
       interact with the server using HTTPS.
     - The client is a smart-phone AND the user use an app (app like gmail, facebook etc. works only with HTTPS).
 
-https://forums.kali.org/showthread.php?17926-Fake-access-point-ettercap-sslstrip&p=29220&viewfull=1#post29220
-
-http://blog.csnc.ch/tag/sslstrip/
-
-http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+* https://forums.kali.org/showthread.php?17926-Fake-access-point-ettercap-sslstrip&p=29220&viewfull=1#post29220
+* http://blog.csnc.ch/tag/sslstrip/
+* http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
 
 Credits to repzeroworld (Kali Forums) for clarifying me how sslstrip works.
 
@@ -397,8 +395,7 @@ The Latest Version
 ==================
 
   Details of the latest version can be found on the Kali forums and here at github :
-  
-  https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point
+* <a href="https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point">Aerial Multi mode wireless LAN Based on a Software Access point/</a>
 
 Documentation
 =============
@@ -413,17 +410,13 @@ Licensing
 Credits
 =========
 
-  To my mentor: Gitsnik
-  For their replies:
-  zimmaro dataghost
+To my mentor: Gitsnik
+For their replies: zimmaro dataghost
 
 Contacts
 ========
 
-  * If you want to be informed about new code releases, please visit :
-  https://forums.kali.org/showthread.php?23028-Aerial-Multi-mode-wireless-LAN-Based-on-a-Software-Access-point
-
-  * You can contact me at :
-  https://forums.kali.org/member.php?24689-Nick_the_Greek
+  You can contact me at :
+* <a href="https://forums.kali.org/member.php?24689-Nick_the_Greek">Nick_the_Greek - Kali Forums/</a>
 
 (c) 2014 Nick_the_Greek
