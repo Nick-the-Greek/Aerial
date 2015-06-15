@@ -407,11 +407,23 @@ Licensing
 
   Please see the file called COPYING.
 
-Credits
+Credits / Videos
 =========
+hackyard.net
+https://hackyard.net/aerial-wifi.hy
+
+Ozzy(66) for his great videos: ( https://vimeo.com/user2284430)
+
+Fake AP Mitmproxy
+https://vimeo.com/114373690
+
+Fake AP-Transparent Proxy - Inject code in exe/dll with BackdoorFactory Proxy
+https://vimeo.com/112569640
+
+ zimmaro's Video [kali]one test with Aerial
+ https://vimeo.com/117293271
 
 To my mentor: Gitsnik
-For their replies: zimmaro dataghost
 
 Contacts
 ========
